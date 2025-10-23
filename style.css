@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* root */
+:root {
+  --clr-yellow: #f4d04e;
+  --clr-white: #ffffff;
+  --clr-Grey: #808080;
+  --clr-Black: #121212;
+
+  --ff-main: "Figtree", sans-serif;
+  --fs-main: 16px;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+/* reset */
+*, 
+*::before, 
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+body {
+  font-family: var(--ff-main);
+  font-size: var(--fs-main);
+  background-color: var(--clr-Black);
+  color: var(--clr-Grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1.5rem;
+}
